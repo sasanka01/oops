@@ -50,5 +50,5 @@ prod2.display_info()
 prod2.tax(8.)
 prod2.item_return("like new").display_info()
 
-prod3.tax(8.)
+prod3.tax(12.)
 prod3.display_info()
