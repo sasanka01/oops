@@ -12,11 +12,11 @@ class Animal(object):
         return self
 
     def display_health(self):
-        print "the health of the "+ self.name + " is " + str(self.health)
+        print "the health of the {} is {}".format(self.name,self.health)
         return self
 
-# animal1 = Animal("animal1")
-# animal1.walk().walk().walk().run().run().display_health()
+animal1 = Animal("animal1")
+animal1.walk().walk().walk().run().run().display_health()
 
 class Dog(Animal):
     def __init__(self,name):
